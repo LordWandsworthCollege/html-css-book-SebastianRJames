@@ -1,0 +1,45 @@
+body{
+    width:75%;
+    margin:auto;
+    border:20px solid cornflowerblue;
+    border-radius:50px;
+    padding: 5%;
+}
+/*border solid dashed dotted
+padding = 5% away from the edge of the screen, border-radius = the curve radius of the curve
+border 20px = border thickness
+rem = the size of the font dependant on how big the page is.
+padding = distance between margin and the text*/
+p{
+    font:1.6rem Arial;
+    color:black;
+    width:50%;
+    margin-top:1cm;
+    margin-bottom: 1cm;
+}
+h2{
+    background-color: #ffffff;
+    color:cornflowerblue;
+    font:2rem "Courier New";
+}
+/*h3{
+    background-color: #ffffff;
+    color:cornflowerblue;
+    font:2rem "Courier New";
+}*/
+#heading{
+
+    font:3rem "Arial Black";
+    font-weight:100;
+}
+.fact{
+    background-color: white;
+}
+strong{
+    font-weight: bold
+}
+/*strong definition isn't really needed as it is defined as bold by default*/
+p:hover{
+    color: BlueViolet;
+}
+/*when you hover over a paragraph p (or h1 or h2) then it will change colour*/
