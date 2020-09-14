@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    width: 75%;
+    border:20px dashed lawngreen;
+    border-radius:30px;
+    padding: 5%;
+    background-color: dodgerblue;
+}
+img{
+    width:30%;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+    display: block;
+}
+/*float floats the picture up and to the right of the last picture
+width is 30% so can only fit 3 images on that row, next picture goes below*/
+p{
+    width: 30%;
+    margin: 5px;
+    float: left;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 1px solid #000000;
+    overflow: hidden;
+    word-wrap: break-word;
+    writing-mode: vertical-lr;
+
+}
+h1{
+    /*background-color: #ffffff;*/
+    color:lawngreen;
+    font:2rem "Courier New";
+    font-weight: bold;
+    text-decoration: underline lawngreen;
+}
+p:hover{
+  color: red;
+}
